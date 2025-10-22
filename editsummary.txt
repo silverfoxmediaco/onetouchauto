@@ -22,3 +22,21 @@
 - Environment variable CLIENT_URL can still override this if set in .env file
 
 ### Total Files Modified: 1
+
+---
+
+## 2025-10-21 - GitHub Repository Rename
+
+### Changes Made:
+- Renamed GitHub repository from "shottenkirk-app" to "onetouchauto"
+- Updated local git remote URL to match new repository name
+
+### Git Remote Update:
+- **Old URL:** https://github.com/silverfoxmediaco/shottenkirk-app.git
+- **New URL:** https://github.com/silverfoxmediaco/onetouchauto.git
+- Command used: `git remote set-url origin https://github.com/silverfoxmediaco/onetouchauto.git`
+
+### Impact:
+- All future pushes and pulls will use the new repository URL
+- GitHub automatically redirects old URLs, but using the new URL is best practice
+- Repository history, issues, and PRs remain intact
