@@ -30,7 +30,7 @@ const corsOptions = {
       'http://localhost:5174',
       'http://localhost:5175',
       'http://localhost:5176',
-      'https://shottenkirk-app.onrender.com',
+      'https://onetouchauto.onrender.com',
       process.env.CLIENT_URL
     ].filter(Boolean);
 

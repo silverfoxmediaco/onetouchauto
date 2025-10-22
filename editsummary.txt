@@ -1,0 +1,24 @@
+# Edit Summary Log
+
+## 2025-10-21 - Domain URL Update
+
+### Changes Made:
+- Updated production domain reference from "shottenkirk-app.onrender.com" to "onetouchauto.onrender.com"
+
+### Files Modified:
+1. **server/index.js** (line 33)
+   - Changed CORS allowed origin from 'https://shottenkirk-app.onrender.com' to 'https://onetouchauto.onrender.com'
+   - This affects the CORS configuration for production deployment
+
+### Files Checked (No Changes Needed):
+- server/.env (no CLIENT_URL defined, uses hardcoded value from index.js)
+- server/.env.example (contains generic placeholder, kept as is)
+- README.md (no domain references)
+- package.json files (no URL references, only package names)
+
+### Impact:
+- Production deployment will now accept requests from the new domain onetouchauto.onrender.com
+- Local development URLs remain unchanged (localhost:5173-5176)
+- Environment variable CLIENT_URL can still override this if set in .env file
+
+### Total Files Modified: 1
