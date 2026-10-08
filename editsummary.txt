@@ -1,5 +1,13 @@
 # Edit Summary Log
 
+## 2026-10-08 - Portfolio README
+
+### Changes Made:
+- Replaced the short README.md with a full write-up: client need, inventory and MeeRa concierge, architecture, prototype boundaries, local setup
+
+### Files Modified:
+- README.md
+
 ## 2025-10-21 - Domain URL Update
 
 ### Changes Made:
